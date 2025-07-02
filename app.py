@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-vehicles = pd.read_csv('/Users/esdros/Desktop/Sprint_4_Project/vehicles_us.csv')
+vehicles = pd.read_csv('/Users/esdros/Desktop/Sprint_4_project-/vehicles_us.csv')
 st.header("This is my header")
 
 #Plotly Express Histogram
@@ -12,7 +12,7 @@ st.plotly_chart(fig)
 #Plotly Express scatterplot 
 fig_scatter = px.scatter(vehicles, x='model_year', y='price')
 fig_scatter.update_layout(title='Model Year vs Price', xaxis_title='Model Year', yaxis_title='Price')
-st.plotly_chart(fig_scatter)
+
 
 #Checkbox 
 show_trend = st.checkbox("Show Price Trend")
