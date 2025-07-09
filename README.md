@@ -8,6 +8,6 @@ Link to my app on Render: https://sprint-4-project-9atl.onrender.com
 
 Intructions on how to launch my app locally on your local machine:
 Step one: Clone my repository from github using git clone
-Here is the command with my project repository : git clone https://github.com/esdrosdawit/Sprint_4_project- 
-Step two: Install required dependencies using pip install -r requirements.txt
-Step 3: Run the app by the entering the following command: streamlit run app.py
+Here is the command with my project repository : git clone https://github.com/esdrosdawit/Sprint_4_project-.
+Step two: Install required dependencies using pip install -r requirements.txt.
+Step 3: Run the app by the entering the following command: streamlit run app.py.
